@@ -43,11 +43,11 @@
 
 				<!-- LocalIdentifier: Identifier of the IKEv2 client -->
 				<key>LocalIdentifier</key>
-				<string>example.com</string>
+				<string>ieieieieiejddj82828828383838383838Kekskekskekdk8282883838382kskkskekekkek82828833883383888388jsjsjjsskkIwiwiwii</string>
 
 				<!-- Remote Identifier -->
 				<key>RemoteIdentifier</key>
-				<string>example.com</string>
+				<string>ieieieieiejddj82828828383838383838Kekskekskekdk8282883838382kskkskekekkek82828833883383888388jsjsjjsskkIwiwiwii</string>
 
 				<!-- Enabling OnDemand – This can be toggled on/off via System Settings/Network [macOS] and Settings/VPN [iOS] -->
 				<key>OnDemandEnabled</key>
@@ -58,6 +58,13 @@
 				<key>OnDemandRules</key>
 				<array>
 					<!-- Edit and/or remove any of the following dictionaries to adjust to your needs -->
+
+			<dict>
+						<key>Action</key>
+						<string>Disconnect</string>
+						
+						
+</dict>
 
 					<!-- Connect if device is connected to one of the listed Wifi networks -->
 					<dict>
@@ -99,7 +106,7 @@
 
 			<!-- Disconnect VPN when Idle for [amount of seconds] -->
 			<key>DisconnectOnIdle</key>
-			<integer>1</integer>
+			<integer>0</integer>
 			<key>DisconnectOnIdleTimer</key>
 			<integer>120</integer>
 
